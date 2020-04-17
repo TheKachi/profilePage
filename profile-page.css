@@ -44,7 +44,7 @@ span {
 
 .profile {
     max-width: 500px;
-    min-width: 200px;
+    min-width: 400px;
     /* background-color: gray; */
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
@@ -69,7 +69,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 .contact-form {
     background-color: rgb(150, 139, 139);
-    width: 600px;
+    max-width: 600px;
+    min-width: 300px;
     margin: 30px auto;
     padding: 20px;
     border-radius: 5px;
